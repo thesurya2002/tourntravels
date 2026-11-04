@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fbf4e6;
+  --foreground: #2b2b2b;
+  --card: #f7f0e6;
+  --primary: #0f5c63;
+  --primary-dark: #0a3f44;
+  --accent: #f28c38;
+  --muted: #6b6b6b;
+  --border: #e3d9c4;
+  --ring: #0f5c63;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(15, 92, 99, 0.18);
+}
